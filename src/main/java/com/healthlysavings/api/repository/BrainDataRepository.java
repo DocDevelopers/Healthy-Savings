@@ -1,7 +1,7 @@
 package com.healthlysavings.api.repository;
 
 
-import com.healthlysavings.api.domain.*;
+import com.healthlysavings.api.domain.BrainData;
 import org.springframework.data.repository.CrudRepository;
 
 import javax.transaction.Transactional;

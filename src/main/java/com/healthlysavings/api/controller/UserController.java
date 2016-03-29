@@ -12,12 +12,9 @@ import com.healthlysavings.api.domain.Finance;
 import com.healthlysavings.api.domain.User;
 import com.healthlysavings.api.repository.FinanceRepository;
 import com.healthlysavings.api.repository.UserRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
@@ -80,7 +77,7 @@ public class UserController {
 
         try {
        /*** TODO THIS IS WHERE CAPONE USER CREATION WOULD GO.  DO THIS BEFORE CREATING A NEW USER OBJECT LOCALLY ***/
-            CapitalOneCustomer capitalOneCustomer = new CapitalOneCustomer();
+            CapitalOneCustomer capitalOneCustomer = null;
         /* TODO FILL THIS IN */
 
             user = new User(capitalOneCustomer, email, userHeight, userWeight, ThirdPartyChoice, userGender);

@@ -1,9 +1,11 @@
 package com.healthlysavings.api.domain;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import java.sql.Date;
-import java.util.Calendar;
 
 /**
  * Created by Doc on 3/14/16.

@@ -1,9 +1,9 @@
 package com.healthlysavings.api.controller;
 
-import com.healthlysavings.api.HealthySavingsApplication;
-import com.healthlysavings.api.domain.*;
-import com.healthlysavings.api.repository.*;
 import com.google.gson.Gson;
+import com.healthlysavings.api.HealthySavingsApplication;
+import com.healthlysavings.api.domain.BrainData;
+import com.healthlysavings.api.repository.BrainDataRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

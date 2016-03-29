@@ -1,7 +1,7 @@
 package com.healthlysavings.api.controller;
 
-import com.healthlysavings.api.domain.*;
 import com.google.gson.Gson;
+import com.healthlysavings.api.domain.GoogleFitData;
 import com.healthlysavings.api.repository.GoogleFitRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

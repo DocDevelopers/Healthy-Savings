@@ -1,7 +1,9 @@
 package com.healthlysavings.api.domain;
 
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 /**
  * Created by jrdavis on 3/14/16.

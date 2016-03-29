@@ -1,7 +1,5 @@
 package com.healthlysavings.api;
 
-import com.healthlysavings.api.controller.BrainDataController;
-import com.healthlysavings.api.domain.BrainData;
 import com.healthlysavings.api.domain.User;
 import com.healthlysavings.api.repository.BrainDataRepository;
 import com.healthlysavings.api.repository.UserRepository;
@@ -10,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import java.sql.Date;
 import java.util.HashMap;
 import java.util.Map;
 
